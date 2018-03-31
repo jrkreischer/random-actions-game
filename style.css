@@ -1,0 +1,128 @@
+html {
+  height: 100vh;
+  width: 100vw;
+  color: #555B6E;
+  background-color: #FAF9F9;
+  font-family: 'Roboto', sans-serif;
+}
+
+html,
+input[type=text],
+input[type=submit],
+textarea {
+  font-size: 18px;
+}
+
+/* input[type=text] {
+  border: none;
+  border-bottom: 1px solid #555B6E;
+} */
+
+input[type=text],
+input[type=submit],
+textarea {
+  padding: 0.25em;
+  outline: none;
+  color: #555B6E;
+  background-color: #FAF9F9;
+  transition: 0.3s ease;
+}
+
+input[type=text],
+input[type=submit],
+textarea {
+  border: none;
+  border: 1px solid #555B6E;
+}
+
+input[type=text]:focus,
+input[type=submit]:hover,
+textarea:focus {
+  border-color: #89B0AE;
+}
+
+input[type=submit] {
+  text-transform: uppercase;
+  padding: 0.25em 1em;
+  border: 4px double #555B6E;
+  transition: 0.3s ease;
+}
+
+input[type=submit]:hover {
+  color: #FAF9F9;
+  background-color: #555B6E;
+}
+
+.page-wrap {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: #89B0AE;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #555B6E;
+  letter-spacing: 0.05em;
+}
+
+.site-title {
+  color: #555B6E;
+}
+
+.title {
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Monoton', cursive;
+  margin-bottom: 0.25em;
+}
+
+.navigation {
+  margin-bottom: 2em;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navigation ul a {
+  margin: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.action-form form {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.random-action form {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.random-action form select {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+label {
+  margin-bottom: 0.25em;
+}
